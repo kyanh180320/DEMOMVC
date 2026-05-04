@@ -1,0 +1,76 @@
+# =========================
+# Build results
+# =========================
+bin/
+obj/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# =========================
+# Rider / VS Code
+# =========================
+.idea/
+.vscode/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ASP.NET Core
+# =========================
+wwwroot/lib/
+wwwroot/dist/
+
+# =========================
+# Node (nếu có frontend)
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# Secrets
+# =========================
+appsettings.Development.json
+secrets.json
+
+# =========================
+# Publish output
+# =========================
+publish/
+*.publishproj
+
+# =========================
+# Database
+# =========================
+*.mdf
+*.ldf
+
+# =========================
+# Resharper
+# =========================
+_ReSharper*/
+*.DotSettings.user
+
+# =========================
+# Others
+# =========================
+*.swp
+*.tmp
+*.cache
